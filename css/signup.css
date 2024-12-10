@@ -1,0 +1,78 @@
+body {
+    background-color: #24353F;
+}
+section {
+    width: 55%;
+    min-height: 500px;
+    background-color: #24353F;
+    color: #17A2B8;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input {
+    border: 1px solid #CED4DA;
+    outline: none;
+    background-color: transparent;
+    color: #fff ;
+}
+
+button {
+    border: 1px solid #17A2B8;
+    outline: none;
+    background-color: transparent;
+    color: #17A2B8;
+    padding: 8px 0;
+    transition: all 0.5s;
+}
+
+p {
+    color: #fff;
+}
+
+button:hover {
+    background-color: #17A2B8;
+    color: #fff;
+}
+
+p #singUp:hover{
+   text-decoration: underline;
+}
+input:focus {
+    border: 1px solid #80BDFF;
+}
+
+.error-message {
+    background-color: #24353F;
+    border: 2px solid #17A2B8;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .error-message .icon {
+    background-color: #17A2B8;
+    color: #24353F;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .error-message .message {
+    font-size: 16px;
+    line-height: 1.5;
+  }

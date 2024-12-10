@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singup</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body class="pt-4 d-flex justify-content-center">
+        <section class="login-box text-center p-5">
+            <h1>Smart Login System</h1>
+            <div class="name-user my-3 w-100">
+                <input type="text" name="User-Name" placeholder="Enter your name" class="w-100 p-2 rounded" id="userName">
+            </div>
+            <div class="error-message d-none" id="errorMassageName">
+                <i class="icon">!</i>
+                <span class="message">The name should only contain letters and be between 2 and 50 characters long.</span>
+            </div>
+            <div class="email-user my-3 w-100">
+                <input type="email" name="Email-User" placeholder="Enter your email" class="w-100 p-2 rounded" id="userEmail">
+            </div>
+            <div class="error-message d-none" id="errorMassageEmail">
+                <i class="icon">!</i>
+                <span class="message">Please enter a valid email address in the correct format</span>
+            </div>
+            <div class="pass-user my-3 w-100">
+                <input type="password" name="password-User" placeholder="Enter your password" class="w-100 p-2 rounded" id="userPassword">
+            </div>
+            <div class="error-message d-none" id="errorMassagePassword">
+                <i class="icon">!</i>
+                <span class="message">Invalid password: Please enter a password that is 6-20 characters long and includes at least one letter and one number.</span>
+            </div>
+            <p class="text-danger d-none" id="alertDanger">email already exists</p>
+            <p class="text-success d-none" id="alertSuccess">Success</p>
+            <p class="text-danger d-none" id="alertEmtyInputs">All inputs is required</p>
+            <button id="btnLogin" class="w-100 mb-3 rounded" type="button">Login</button>
+            <p class="m-0">Don’t have an account? <a href="index.html" id="singUp">Signin</a></p>
+        </section>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>
